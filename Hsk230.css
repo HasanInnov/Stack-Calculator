@@ -1,10 +1,10 @@
-    body {
+body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: rgb(16, 20, 28);
-        }
-        hr {
+}
+hr {
             border: none;
             border-style: none;
             height: 0.5px; /* thickness of the line */
