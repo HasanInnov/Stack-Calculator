@@ -17,16 +17,28 @@
             background-color: rgb(44, 49, 55);
             margin: -2rem 0;
         }
-        h1 {
-            color: white;
-            padding: 2.5rem 0;
-            margin-inline: 7rem 0;
-        }
+        header {
+  display: flex;
+  justify-content: space-between; /* puts them on same line, far apart */
+  align-items: center; /* vertically align */
+  padding: 20px;
+  background-color: rgb(16, 20, 28); /* your dark background */
+}
+
+header h1, header a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
     </style>
 </head>
 <body>
-    <h1> Stack Calculator </h1>
+    <header>
+  <h1>Stack Calculator</h1>
+  <a href="#">About</a>
+</header>
+
   <hr></hr>
 </body>
-
 </html>
+
