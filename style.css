@@ -1,0 +1,108 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(16, 20, 28);
+        }
+        hr {
+            border: none;
+            border-style: none;
+            height: 0.5px; /* thickness of the line */
+            background-color: rgb(44, 49, 55);
+            margin: -0.5rem 0;
+        }
+        header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: rgb(16, 20, 28);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between icon and text */
+}
+
+.logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.headerkeandar {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* space between links and button */
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav button {
+  background-color: #32bb64; /* green button */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease; /* smooth transition */
+}
+
+nav button:hover {
+  background-color: #16a34a;
+}
+.App {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 6.5rem 0;
+  margin-bottom: 1.5rem; /* reduce bottom margin */
+}
+.Appkeniche {
+  color: white;
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0; /* reduce top margin */
+}
+.Download {
+  text-decoration: none;
+  display: block; /* center the button */
+  margin: 2rem auto; /* center the button */
+  background-color: #32bb64; /* green button */
+  color: white;
+  border: none;
+  border-radius: 8px; /* slightly rounder corners */
+  padding: 14px 48px; /* increased padding for bigger size */
+  font-size: 1.1rem; /* slightly larger text */
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease; /* smooth transition */
+}
+
+.Download:hover {
+  background-color: #15803d; /* darker green on hover */
+  transform: scale(1.05); /* slight zoom effect */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
