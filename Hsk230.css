@@ -1,293 +1,291 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-
-
 /* Base */
 body {
-  font-family: "Inter", sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(28,32,40);
-  color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(16, 20, 28);
+    color: #fff;
 }
 
 hr {
-  border: none;
-  height: 0.5px;
-  background-color: rgb(44, 49, 55);
-  margin: 0;
+    border: none;
+    height: 0.5px;
+    background-color: rgb(44, 49, 55);
+    margin: 0;
 }
 
 /* Header */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 40px;
-  background-color: rgb(28, 32, 40);
-  position: sticky;
-  top: 0;
-  z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    background-color: rgb(16, 20, 28);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  gap: 3px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
 
 #logoofapp {
-  width: 64px;
-  height: auto;
+    width: 64px;
+    height: auto;
 }
 
 .headerkeandar {
-  font-size: 1.45rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 /* Navbar links */
 nav {
-  display: flex;
-  align-items: center;
-  gap: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
 }
 
 nav a {
-  color: #bfc6d1;
-  text-decoration: none;
-  font-size: 0.95rem;
-  transition: color .2s;
+    color: #bfc6d1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color .2s;
 }
 
 nav a:hover {
-  color: #fff;
+    color: #fff;
 }
 
 /* Navbar Download button (smaller, sleek) */
 #navdown {
-  background-color: hsl(152 68% 48%);
-  color: white;
-  border: hsl(152 68% 38%);
-  border-radius: 5px;
-  padding: 6px 16px;
-  font-size: 0.85rem;
-  cursor: pointer;
-  font-weight: 600;
-  transition: .2s;
-  backdrop-filter: blur(4px);
+    background-color: rgba(50, 187, 100);
+    color: white;
+    border: 1px solid rgba(50, 187, 100, 0.6);
+    border-radius: 5px;
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .2s;
+    backdrop-filter: blur(4px);
 }
 
 #navdown:hover {
-  background-color: hsl(152 68% 38%);
-  border-color: hsl(152 68% 38%);
+    background-color: #32bb64;
+    border-color: #32bb64;
 }
 
 /* Hero Section */
 .App {
-  font-size: 4rem;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: .5rem;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
 }
 
 /* Version tag styling */
-/*.ver {
-  text-align: center;
-  font-size: 1rem;
-  color: #9ca3af;
-  background-color: rgba(255,255,255,0.08);
-  padding: 4px 12px;
-  border-radius: 6px;
-  display: inline-block;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-}*/
+.ver {
+    text-align: center;
+    font-size: 1rem;
+    color: #9ca3af;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 4px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
 
 /* Subheading */
 .Appkeniche {
-  font-size: 1.3rem;
-  text-align: center;
-  font-weight: 400;
-  color: #e9edf2;
-  margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    color: #e9edf2;
+    margin-bottom: 1.2rem;
 }
 
 /* Main download button */
 #maindown {
-  text-decoration: none;
-  display: block;
-  margin: 1.8rem auto;
-  background-color: hsl(152 68% 48%);
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 14px 48px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: .2s;
+    text-decoration: none;
+    display: block;
+    margin: 1.8rem auto;
+    background-color: #32bb64;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 48px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s;
 }
 
 #maindown:hover {
-  background-color:  hsl(152 68% 38%);
-  transform: scale(1.05);
+    background-color: #15803d;
+    transform: scale(1.05);
 }
 
 /* Supported OS text */
 .hsnkitrhnum2heading {
-  font-size: 1.1rem;
-  text-align: center;
-  margin-top: -0.3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: -0.3rem;
 }
 
 /* Description section */
 .description {
-  max-width: 720px;
-  margin: 2.4rem auto;
-  padding: 0 1.5rem;
-  text-align: center;
-  line-height: 1.6;
-  font-size: 1rem;
+    max-width: 720px;
+    margin: 2.4rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1rem;
 }
 
 .saad,
 .hsn {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 /* ===== MODAL ===== */
 
 #overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .3s, visibility .3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
 }
 
 #overlay.active {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 
 .modal {
-  background-color: rgb(28, 32, 40);
-  padding: 40px 60px;
-  border-radius: 16px;
-  text-align: center;
-  box-shadow: 0 0 20px rgba(255,255,255,0.1);
-  transform: scale(0.9);
-  opacity: 0;
-  transition: .3s;
+    background-color: rgb(28, 32, 40);
+    padding: 40px 60px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    transform: scale(0.9);
+    opacity: 0;
+    transition: .3s;
 }
 
 #overlay.active .modal {
-  transform: scale(1);
-  opacity: 1;
+    transform: scale(1);
+    opacity: 1;
 }
 
 .windows-btn {
-  background-color: hsl(152 68% 48%);
-  color: white;
-  font-size: 1.1rem;
-  padding: 12px 30px;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-  font-weight: 500;
-  transition: .2s;
-  text-decoration: none;
+    background-color: #0078d7;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-weight: 500;
+    transition: .2s;
+    text-decoration: none;
 }
 
 .windows-btn:hover {
-  background-color:  hsl(152 68% 38%);
-  color: #000;
-  transform: scale(1.05);
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
 }
 
 .windows-logo {
-  width: 22px;
-  height: 22px;
-  filter: brightness(10);
+    width: 22px;
+    height: 22px;
+    filter: brightness(10);
 }
 
 .windows-btn:hover .windows-logo {
-  filter: brightness(0);
+    filter: brightness(0);
 }
 
 #overlay.hidden {
-  display: none;
+    display: none;
 }
 
 /* Blur background when modal active */
 content.blurred {
-  filter: blur(8px);
-  pointer-events: none; /* prevents clicking behind modal */
+    filter: blur(8px);
+    pointer-events: none;
+    /* prevents clicking behind modal */
 }
 
 /* Keep modal itself sharp */
 #overlay,
 #overlay * {
-  filter: none !important;
-  pointer-events: auto;
+    filter: none !important;
+    pointer-events: auto;
 }
 
 .os-btn {
-  width: 100%;
-  background: hsl(152 68% 48%);
-  border: 1px solid hsl(152 68% 48%);
-  padding: 12px 18px;
-  margin: 10px 0;
-  border-radius: 10px;
-  color: #fff;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  cursor: pointer;
-  transition: 0.2s ease;
-  justify-content: center;
+    width: 100%;
+    background: #1d1f25;
+    border: 1px solid #2c2f36;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    justify-content: center;
 }
 
 .os-btn:hover:not(.disabled) {
-  background: #2a8657;
-  border-color: #2a8657;
-  transform: scale(1.04);
+    background: #2a8657;
+    border-color: #2a8657;
+    transform: scale(1.04);
 }
 
 .os-btn.active {
-  background: hsl(152 68% 48%);
-  border-color:  hsl(152 68% 48%);
+    background: #32bb64;
+    border-color: #32bb64;
 }
 
 .os-btn.active:hover {
-  background:  hsl(152 68% 38%);
+    background: #28a457;
 }
 
 .os-btn.disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
+    opacity: 0.45;
+    cursor: not-allowed;
 }
 
 .os-logo {
-  width: 22px;
-  height: 22px;
-  pointer-events: none;
-  filter: brightness(1);
+    width: 22px;
+    height: 22px;
+    pointer-events: none;
+    filter: brightness(1);
 }
 
 /*dgo*/
