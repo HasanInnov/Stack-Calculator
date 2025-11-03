@@ -7,7 +7,7 @@ body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(16,20,28);
+  background-color: rgb(28,32,40);
   color: #fff;
 }
 
@@ -24,7 +24,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 18px 40px;
-  background-color: rgb(16, 20, 28);
+  background-color: rgb(28, 32, 40);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -67,9 +67,9 @@ nav a:hover {
 
 /* Navbar Download button (smaller, sleek) */
 #navdown {
-  background-color: var(--primary);
+  background-color: hsl(152 68% 48%);
   color: white;
-  border: var(--primary);
+  border: hsl(152 68% 38%);
   border-radius: 5px;
   padding: 6px 16px;
   font-size: 0.85rem;
@@ -80,8 +80,8 @@ nav a:hover {
 }
 
 #navdown:hover {
-  background-color: 152° 68% 38%;
-  border-color: 152° 68% 38%;
+  background-color: hsl(152 68% 38%);
+  border-color: hsl(152 68% 38%);
 }
 
 /* Hero Section */
@@ -120,7 +120,7 @@ nav a:hover {
   text-decoration: none;
   display: block;
   margin: 1.8rem auto;
-  background-color: 152° 68% 48%;
+  background-color: hsl(152 68% 48%);
   color: white;
   border: none;
   border-radius: 10px;
@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 #maindown:hover {
-  background-color:  152° 68% 38%;
+  background-color:  hsl(152 68% 38%);
   transform: scale(1.05);
 }
 
@@ -198,7 +198,7 @@ nav a:hover {
 }
 
 .windows-btn {
-  background-color: 152° 68% 48%;
+  background-color: hsl(152 68% 48%);
   color: white;
   font-size: 1.1rem;
   padding: 12px 30px;
@@ -214,7 +214,7 @@ nav a:hover {
 }
 
 .windows-btn:hover {
-  background-color:  152° 68% 38%;
+  background-color:  hsl(152 68% 38%);
   color: #000;
   transform: scale(1.05);
 }
@@ -248,8 +248,8 @@ content.blurred {
 
 .os-btn {
   width: 100%;
-  background: 152° 68% 48%;
-  border: 1px solid 152° 68% 48%;
+  background: hsl(152 68% 48%);
+  border: 1px solid hsl(152 68% 48%);
   padding: 12px 18px;
   margin: 10px 0;
   border-radius: 10px;
@@ -270,12 +270,12 @@ content.blurred {
 }
 
 .os-btn.active {
-  background: hsl(152° 68% 48%);
-  border-color:  hsl(152° 68% 48%);
+  background: hsl(152 68% 48%);
+  border-color:  hsl(152 68% 48%);
 }
 
 .os-btn.active:hover {
-  background:  hsl(152° 68% 38%);
+  background:  hsl(152 68% 38%);
 }
 
 .os-btn.disabled {
