@@ -65,7 +65,7 @@ nav a:hover {
 
 /* Navbar Download button (smaller, sleek) */
 #navdown {
-  background-color: rgba(50,187,100);
+  background-color: 152° 68% 48%;
   color: white;
   border: 1px solid rgba(50,187,100,0.6);
   border-radius: 5px;
@@ -78,8 +78,8 @@ nav a:hover {
 }
 
 #navdown:hover {
-  background-color: #32bb64;
-  border-color: #32bb64;
+  background-color: 152° 68% 38%;
+  border-color: 152° 68% 38%;
 }
 
 /* Hero Section */
@@ -118,7 +118,7 @@ nav a:hover {
   text-decoration: none;
   display: block;
   margin: 1.8rem auto;
-  background-color: #32bb64;
+  background-color: 152° 68% 48%;
   color: white;
   border: none;
   border-radius: 10px;
@@ -130,7 +130,7 @@ nav a:hover {
 }
 
 #maindown:hover {
-  background-color: #15803d;
+  background-color:  152° 68% 38%;
   transform: scale(1.05);
 }
 
@@ -196,7 +196,7 @@ nav a:hover {
 }
 
 .windows-btn {
-  background-color: #0078d7;
+  background-color: 152° 68% 48%;
   color: white;
   font-size: 1.1rem;
   padding: 12px 30px;
@@ -212,7 +212,7 @@ nav a:hover {
 }
 
 .windows-btn:hover {
-  background-color: #fff;
+  background-color:  152° 68% 38%;
   color: #000;
   transform: scale(1.05);
 }
@@ -246,8 +246,8 @@ content.blurred {
 
 .os-btn {
   width: 100%;
-  background: #1d1f25;
-  border: 1px solid #2c2f36;
+  background: 152° 68% 48%;
+  border: 1px solid 152° 68% 48%;
   padding: 12px 18px;
   margin: 10px 0;
   border-radius: 10px;
@@ -268,12 +268,12 @@ content.blurred {
 }
 
 .os-btn.active {
-  background: #32bb64;
-  border-color: #32bb64;
+  background: 152° 68% 48%;
+  border-color:  152° 68% 48%;
 }
 
 .os-btn.active:hover {
-  background: #28a457;
+  background:  152° 68% 38%;
 }
 
 .os-btn.disabled {
