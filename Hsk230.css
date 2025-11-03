@@ -63,7 +63,7 @@ nav a:hover {
 
 /* Navbar Download button (smaller, sleek) */
 #navdown {
-  background-color: rgba(50,187,100,0.25);
+  background-color: rgba(50,187,100);
   color: white;
   border: 1px solid rgba(50,187,100,0.6);
   border-radius: 5px;
