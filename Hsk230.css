@@ -75,9 +75,9 @@ nav a:hover {
 
 /* Navbar Download button (smaller, sleek) */
 #navdown {
-  background-color: 152° 68% 48%;
+  background-color: var(--primary);
   color: white;
-  border: 1px solid rgba(50,187,100,0.6);
+  border: var(--primary);
   border-radius: 5px;
   padding: 6px 16px;
   font-size: 0.85rem;
