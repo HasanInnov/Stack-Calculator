@@ -1,21 +1,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-:root {
-  --background: hsl(220 20% 10%);
-  --foreground: hsl(210 20% 98%);
-  --primary: hsl(152 68% 48%);
-  --muted: hsla(220, 15%, 20%, 0.5);
-  --muted-foreground: hsl(215 15% 65%);
-  --border: hsl(220 15% 18%);
-  --radius: 0.75rem;
-}
+
 
 /* Base */
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--background);
+  background-color: rgb(16,20,28);
   color: #fff;
 }
 
@@ -278,12 +270,12 @@ content.blurred {
 }
 
 .os-btn.active {
-  background: 152° 68% 48%;
-  border-color:  152° 68% 48%;
+  background: hsl(152° 68% 48%);
+  border-color:  hsl(152° 68% 48%);
 }
 
 .os-btn.active:hover {
-  background:  152° 68% 38%;
+  background:  hsl(152° 68% 38%);
 }
 
 .os-btn.disabled {
@@ -298,6 +290,7 @@ content.blurred {
   filter: brightness(1);
 }
 
+/*dgo*/
 .version-badge {
   display: inline-flex;
   align-items: center;
@@ -305,10 +298,10 @@ content.blurred {
   padding: 6px 16px;
   font-size: 0.85rem;
   font-weight: 500;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  background: var(--muted);
-  color: var(--muted-foreground);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.08);
+  color: #c4c4c4;
   backdrop-filter: blur(8px);
 }
 
@@ -325,7 +318,7 @@ content.blurred {
   height: 8px;
   width: 8px;
   border-radius: 9999px;
-  background: var(--primary);
+  background: hsl(152, 68%, 48%);
 }
 
 .dot-ping {
@@ -333,7 +326,7 @@ content.blurred {
   height: 8px;
   width: 8px;
   border-radius: 9999px;
-  background: var(--primary);
+  background: hsl(152, 68%, 48%);
   opacity: 0.75;
   animation: ping 1.2s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
@@ -352,4 +345,5 @@ content.blurred {
     opacity: 0;
   }
 }
+
 
