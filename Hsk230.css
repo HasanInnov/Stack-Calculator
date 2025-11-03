@@ -230,7 +230,7 @@ nav button:hover {
 }
 
 /* Blur background when modal active */
-body.blurred {
+content.blurred {
   filter: blur(8px);
   pointer-events: none; /* prevents clicking behind modal */
 }
