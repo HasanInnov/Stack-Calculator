@@ -1,28 +1,35 @@
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: rgb(16, 20, 28);
-        }
-        hr {
-            border: none;
-            border-style: none;
-            height: 0.5px; /* thickness of the line */
-            background-color: rgb(44, 49, 55);
-            margin: -0.5rem 0;
-        }
-        header {
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 20, 28);
+  color: #fff;
+}
+
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: rgb(44, 49, 55);
+  margin: 0;
+}
+
+/* Header */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 18px 40px;
   background-color: rgb(16, 20, 28);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px; /* space between icon and text */
+  gap: 10px;
 }
 
 .logo img {
@@ -31,165 +38,124 @@
 }
 
 .headerkeandar {
-  color: #fff;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
+/* Navbar links */
 nav {
   display: flex;
   align-items: center;
-  gap: 2rem; /* space between links and button */
+  gap: 1.8rem;
 }
 
 nav a {
-  color: #ccc;
+  color: #bfc6d1;
   text-decoration: none;
   font-size: 0.95rem;
-  transition: color 0.2s ease;
+  transition: color .2s;
 }
 
 nav a:hover {
   color: #fff;
 }
 
+/* Navbar Download button (smaller, sleek) */
 nav button {
-  background-color: #32bb64; /* green button */
+  background-color: rgba(50,187,100,0.25);
   color: white;
-  border: none;
-  border-radius: 6px;
-  padding: 8px 16px;
-  font-weight: bold;
+  border: 1px solid rgba(50,187,100,0.6);
+  border-radius: 5px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
   cursor: pointer;
-  transition: background-color 0.2s ease; /* smooth transition */
+  font-weight: 600;
+  transition: .2s;
+  backdrop-filter: blur(4px);
 }
 
 nav button:hover {
-  background-color: #16a34a;
+  background-color: #32bb64;
+  border-color: #32bb64;
 }
+
+/* Hero Section */
 .App {
-  color: white;
-  font-size: 5rem;
-  font-weight: bold;
+  font-size: 4rem;
+  font-weight: 700;
   text-align: center;
-  margin: 6.5rem 0;
-  margin-bottom: 1.5rem; /* reduce bottom margin */
+  margin-top: 5rem;
+  margin-bottom: .5rem;
 }
+
+/* Version tag styling */
+.ver {
+  text-align: center;
+  font-size: 1rem;
+  color: #9ca3af;
+  background-color: rgba(255,255,255,0.08);
+  padding: 4px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+/* Subheading */
 .Appkeniche {
-  color: white;
-  font-weight: 400;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
-  margin-top: 0; /* reduce top margin */
+  font-weight: 400;
+  color: #e9edf2;
+  margin-bottom: 1.2rem;
 }
+
+/* Main download button */
 .Download {
   text-decoration: none;
-  display: block; /* center the button */
-  margin: 2rem auto; /* center the button */
-  background-color: #32bb64; /* green button */
+  display: block;
+  margin: 1.8rem auto;
+  background-color: #32bb64;
   color: white;
   border: none;
-  border-radius: 8px; /* slightly rounder corners */
-  padding: 14px 48px; /* increased padding for bigger size */
-  font-size: 1.1rem; /* slightly larger text */
+  border-radius: 10px;
+  padding: 14px 48px;
+  font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s ease; /* smooth transition */
+  transition: .2s;
 }
 
 .Download:hover {
-  background-color: #15803d; /* darker green on hover */
-  transform: scale(1.05); /* slight zoom effect */
+  background-color: #15803d;
+  transform: scale(1.05);
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
+/* Supported OS text */
 .hsnkitrhnum2heading {
-  color: white;
-  font-weight: 400;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
-  margin-top: -1rem; /* small top margin */
-}
-.description {
-  color: white;
-  font-weight: 500;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  margin: 0.5rem 10rem; /* moderate side margins */
-}
-.saad {
-  font-weight: 500;
-  margin-bottom: -1rem;
-}
-.hsn {
-   font-weight: 500;
-  margin-bottom: 1rem;
-}
-/* === DOWNLOAD OVERLAY === */
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
-#overlay.hidden {
-  display: none;
-}
-/* Modal box styling */
-.modal {
-  background-color: rgb(28, 32, 40);
-  padding: 40px 60px;
-  border-radius: 16px;
-  text-align: center;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-  animation: fadeIn 0.2s ease;
+  margin-top: -0.3rem;
 }
 
-.modal h2 {
-  color: white;
-  margin-bottom: 25px;
+/* Description section */
+.description {
+  max-width: 720px;
+  margin: 2.4rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.saad,
+.hsn {
   font-weight: 600;
 }
 
-/* Windows button */
-.windows-btn {
-  background-color: #0078d7;
-  border: none;
-  color: white;
-  font-size: 1.1rem;
-  padding: 12px 30px;
-  border-radius: 8px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  justify-content: center;
-  font-weight: 500;
-}
+/* ===== MODAL ===== */
 
-.windows-btn:hover {
-  background-color: #005fa3;
-  transform: scale(1.05);
-  transition: all 0.2s ease;
-}
-
-/* Fade in animation */
-@keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
-}
-/* === Overlay Animation Fix === */
 #overlay {
   position: fixed;
   top: 0;
@@ -203,7 +169,7 @@ a {
   z-index: 999;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition: opacity .3s, visibility .3s;
 }
 
 #overlay.active {
@@ -216,10 +182,10 @@ a {
   padding: 40px 60px;
   border-radius: 16px;
   text-align: center;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
   transform: scale(0.9);
   opacity: 0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: .3s;
 }
 
 #overlay.active .modal {
@@ -229,7 +195,6 @@ a {
 
 .windows-btn {
   background-color: #0078d7;
-  border: none;
   color: white;
   font-size: 1.1rem;
   padding: 12px 30px;
@@ -237,31 +202,29 @@ a {
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   justify-content: center;
   font-weight: 500;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  text-decoration: none; /* remove underline since it's an <a> */
+  transition: .2s;
+  text-decoration: none;
 }
 
 .windows-btn:hover {
-  background-color: #ffffff;
-    color: black;
+  background-color: #fff;
+  color: #000;
   transform: scale(1.05);
 }
 
 .windows-logo {
   width: 22px;
   height: 22px;
-  filter: contrast(100);
-  pointer-events: none;
+  filter: brightness(10);
 }
-.windows-btn:hover .windows-logo{
-  filter: contrast(0);
-  filter: invert(2);
+
+.windows-btn:hover .windows-logo {
   filter: brightness(0);
 }
-/* Hidden class just keeps it out of view */
+
 #overlay.hidden {
   display: none;
 }
