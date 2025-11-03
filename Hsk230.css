@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 /* Version tag styling */
-.ver {
+/*.ver {
   text-align: center;
   font-size: 1rem;
   color: #9ca3af;
@@ -102,7 +102,7 @@ nav a:hover {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 1rem;
-}
+}*/
 
 /* Subheading */
 .Appkeniche {
@@ -287,3 +287,69 @@ content.blurred {
   pointer-events: none;
   filter: brightness(1);
 }
+
+:root {
+  --background: hsl(220 20% 10%);
+  --foreground: hsl(210 20% 98%);
+  --primary: hsl(152 68% 48%);
+  --muted: hsla(220, 15%, 20%, 0.5);
+  --muted-foreground: hsl(215 15% 65%);
+  --border: hsl(220 15% 18%);
+  --radius: 0.75rem;
+}
+
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--muted);
+  color: var(--muted-foreground);
+  backdrop-filter: blur(8px);
+}
+
+/* Ping animation dots */
+.dot-wrapper {
+  position: relative;
+  display: flex;
+  height: 8px;
+  width: 8px;
+}
+
+.dot {
+  position: relative;
+  height: 8px;
+  width: 8px;
+  border-radius: 9999px;
+  background: var(--primary);
+}
+
+.dot-ping {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 9999px;
+  background: var(--primary);
+  opacity: 0.75;
+  animation: ping 1.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.75;
+  }
+  75% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
