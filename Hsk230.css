@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 /* Navbar Download button (smaller, sleek) */
-nav button {
+#navdown {
   background-color: rgba(50,187,100,0.25);
   color: white;
   border: 1px solid rgba(50,187,100,0.6);
@@ -75,7 +75,7 @@ nav button {
   backdrop-filter: blur(4px);
 }
 
-nav button:hover {
+#navdown:hover {
   background-color: #32bb64;
   border-color: #32bb64;
 }
@@ -112,7 +112,7 @@ nav button:hover {
 }
 
 /* Main download button */
-.Download {
+#maindown {
   text-decoration: none;
   display: block;
   margin: 1.8rem auto;
@@ -127,7 +127,7 @@ nav button:hover {
   transition: .2s;
 }
 
-.Download:hover {
+#maindown:hover {
   background-color: #15803d;
   transform: scale(1.05);
 }
