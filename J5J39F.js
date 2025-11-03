@@ -1,6 +1,6 @@
 
   const overlay = document.getElementById('overlay');
-  const downloadButtons = document.querySelectorAll('.download-btn');
+  const downloadButtons = document.querySelectorAll('.Download');
 
   downloadButtons.forEach(btn => {
     btn.addEventListener('click', (e) => {
