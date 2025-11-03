@@ -241,3 +241,47 @@ content.blurred {
   filter: none !important;
   pointer-events: auto;
 }
+
+.os-btn {
+  width: 100%;
+  background: #1d1f25;
+  border: 1px solid #2c2f36;
+  padding: 12px 18px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  justify-content: center;
+}
+
+.os-btn:hover:not(.disabled) {
+  background: #2a8657;
+  border-color: #2a8657;
+  transform: scale(1.04);
+}
+
+.os-btn.active {
+  background: #32bb64;
+  border-color: #32bb64;
+}
+
+.os-btn.active:hover {
+  background: #28a457;
+}
+
+.os-btn.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.os-logo {
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+  filter: brightness(1);
+}
