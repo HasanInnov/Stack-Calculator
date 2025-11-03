@@ -1,11 +1,21 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+:root {
+  --background: hsl(220 20% 10%);
+  --foreground: hsl(210 20% 98%);
+  --primary: hsl(152 68% 48%);
+  --muted: hsla(220, 15%, 20%, 0.5);
+  --muted-foreground: hsl(215 15% 65%);
+  --border: hsl(220 15% 18%);
+  --radius: 0.75rem;
+}
+
 /* Base */
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(16, 20, 28);
+  background-color: var(--background);
   color: #fff;
 }
 
@@ -286,16 +296,6 @@ content.blurred {
   height: 22px;
   pointer-events: none;
   filter: brightness(1);
-}
-
-:root {
-  --background: hsl(220 20% 10%);
-  --foreground: hsl(210 20% 98%);
-  --primary: hsl(152 68% 48%);
-  --muted: hsla(220, 15%, 20%, 0.5);
-  --muted-foreground: hsl(215 15% 65%);
-  --border: hsl(220 15% 18%);
-  --radius: 0.75rem;
 }
 
 .version-badge {
