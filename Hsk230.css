@@ -32,7 +32,7 @@ header {
   gap: 3px;
 }
 
-.logoofapp {
+#logoofapp {
   width: 64px;
   height: auto;
 }
