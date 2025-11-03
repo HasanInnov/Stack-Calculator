@@ -1,79 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stack Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Calculator</title>
 
-  <!-- Favicon -->
-  <link rel="icon" href="favicon/favicon.ico">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon/favicon.ico">
 
-  <!-- SEO -->
-  <meta name="description" content="Use this easy Minecraft Stack Calculator to quickly convert any item count into stacks and leftovers. Supports stack sizes of 64, 16, and 1. Perfect for builders, redstone players, and survival inventory planning. Fast, lightweight, and beginner-friendly.">
-  <meta name="keywords" content="minecraft stack calculator, item stack converter, minecraft inventory calculator, convert items to stacks, minecraft building tools, minecraft planner, minecraft crafting helper">
-  <meta name="author" content="HasanInnov">
+    <!-- SEO -->
+    <meta name="description"
+        content="Use this easy Minecraft Stack Calculator to quickly convert any item count into stacks and leftovers. Supports stack sizes of 64, 16, and 1. Perfect for builders, redstone players, and survival inventory planning. Fast, lightweight, and beginner-friendly.">
+    <meta name="keywords"
+        content="minecraft stack calculator, item stack converter, minecraft inventory calculator, convert items to stacks, minecraft building tools, minecraft planner, minecraft crafting helper">
+    <meta name="author" content="HasanInnov">
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="Hsk230.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="Hsk230.css">
 
-  <!-- Script -->
-  <script src="J5J39F.js" defer></script>
+    <!-- Script -->
+    <script src="J5J39F.js" defer></script>
 </head>
+
 <body>
-  <div id="content">
+    <div id="content">
+        <header>
+            <div class="logo">
+                <img id="logoofapp" src="3r39d.png" alt="App Logo">
+                <h1 class="headerkeandar">Stack Calculator</h1>
+            </div>
 
-<header>
-  <div class="logo">
-    <img id="logoofapp" src="3r39d.png" alt="App Logo">
-    <h1 class="headerkeandar">Stack Calculator</h1>
-  </div>
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Release Notes</a>
+                <button id="navdown" class="Download">Download</button>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section class="hero">
+                <h1 class="App">Stack Calculator</h1>
+                <center>
+                    <h2 class="ver">Latest version 1.0.0</h2>
+                </center>
+                <h2 class="Appkeniche">Calculates Minecraft stacks</h2>
+                <button id="maindown" class="Download">Download</button>
+                <h3 class="hsnkitrhnum2heading">Compatible with Windows</h3>
+            </section>
 
-  <nav>
-    <a href="#">About</a>
-    <a href="#">Release Notes</a>
-    <button id="navdown" class="Download">Download</button>
-  </nav>
-</header>
+            <section class="description">
+                <h2 class="saad">Description</h2>
 
-<hr>
+                <p>
+                    An easy-to-use Minecraft stack calculator app. This initial release lets you quickly convert any
+                    item count into stacks, with options for stack sizes of 64, 16, or 1, covering all common Minecraft
+                    items from blocks to ender pearls and snowballs.
+                </p>
 
-<main>
-  <section class="hero">
-    <h1 class="App">Stack Calculator</h1>
-    <center><h2 class="ver">Latest version 1.0.0</h2></center>
-    <h2 class="Appkeniche">Calculates Minecraft stacks</h2>
-    <button id="maindown" class="Download">Download</button>
-    <h3 class="hsnkitrhnum2heading">Compatible with Windows</h3>
-  </section>
+                <h2 class="hsn">Features</h2>
 
-  <section class="description">
-    <h2 class="saad">Description</h2>
+                <ul>
+                    <li>Simple interface for entering item counts</li>
+                    <li>Calculates full stacks and remaining items</li>
+                    <li>Supports stack sizes 64, 16, & 1</li>
+                    <li>Lightweight and fast — no internet required</li>
+                    <li>Perfect for builders, redstoners, and survival players</li>
+                </ul>
+            </section>
+        </main>
+    </div>
 
-    <p>
-      An easy-to-use Minecraft stack calculator app. This initial release lets you quickly convert any item count into stacks, with options for stack sizes of 64, 16, or 1, covering all common Minecraft items from blocks to ender pearls and snowballs.
-    </p>
-
-    <h2 class="hsn">Features</h2>
-
-    <ul>
-      <li>Simple interface for entering item counts</li>
-      <li>Calculates full stacks and remaining items</li>
-      <li>Supports stack sizes 64, 16, & 1</li>
-      <li>Lightweight and fast — no internet required</li>
-      <li>Perfect for builders, redstoners, and survival players</li>
-    </ul>
-  </section>
-</main>
-  </div>
-
-<!-- Download modal -->
-<div id="overlay" class="hidden">
+    <!-- Download modal -->
+  <div id="overlay" class="hidden">
   <div class="modal">
-    <h2>How would you like to download?</h2>
-    <a href="#" download class="windows-btn">
-      <img src="windows_icon-icons.com_65549.png" alt="Windows" class="windows-logo">
-      Windows
+    <h2>Choose your platform</h2>
+
+    <!-- Windows -->
+    <a href="downloads/YourAppInstaller.exe" download class="os-btn active">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" class="os-logo">
+      <span>Windows (.exe)</span>
     </a>
+
+    <!-- macOS -->
+    <button class="os-btn disabled">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" class="os-logo">
+      <span>macOS (.dmg) — Coming Soon</span>
+    </button>
+
+    <!-- Linux -->
+    <button class="os-btn disabled">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" class="os-logo">
+      <span>Linux (.AppImage) — Coming Soon</span>
+    </button>
+
   </div>
 </div>
 
