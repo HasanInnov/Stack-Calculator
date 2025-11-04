@@ -1,8 +1,8 @@
 /*<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">*/
 /* Base */
 main{
-    margin-right:5rem;
-    margin-left:5rem;
+    margin-right:4rem;
+    margin-left:4rem;
 }
 body {
     font-family: "Inter", sans-serif;
@@ -431,7 +431,7 @@ content.blurred {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
-.feature-card {
+/*.feature-card {
   display: flex;
   gap: 12px;
   align-items: flex-start;
@@ -440,7 +440,19 @@ content.blurred {
   border-radius: 10px;
   background: hsl(220 15% 12%);
   transition: 0.2s;
+}*/
+
+.feature-card {
+  display: flex;
+  align-items: center; /* ← change was items-start in Tailwind */
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  transition: 0.2s;
 }
+
 
 .feature-card:hover {
   border-color: hsl(220 15% 32%);
