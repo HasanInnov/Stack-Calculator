@@ -143,16 +143,18 @@ nav a:hover {
     font-size: 1.1rem;
     text-align: center;
     margin-top: -0.3rem;
+    color:#680;
 }
 
 /* Description section */
 .description {
     max-width: 720px;
-    margin: 2.4rem auto;
+    margin: 1.2rem auto;
     padding: 0 1.5rem;
     text-align: center;
     line-height: 1.6;
     font-size: 1rem;
+    color: #666;
 }
 
 /* ===== MODAL ===== */
