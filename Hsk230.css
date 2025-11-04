@@ -456,7 +456,7 @@ content.blurred {
 
 .feature-card:hover {
   border-color: hsl(220 15% 32%);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 .icone {
