@@ -447,9 +447,9 @@ content.blurred {
   align-items: center; /* ← change was items-start in Tailwind */
   gap: 12px;
   padding: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid hsl(220 15% 22%);
   border-radius: 10px;
-  background: #fff;
+  background: hsl(220 15% 12%);
   transition: 0.2s;
 }
 
