@@ -1,5 +1,9 @@
 /*<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">*/
 /* Base */
+main{
+    margin-right:5rem;
+    margin-left:5rem;
+}
 body {
     font-family: "Inter", sans-serif;
     margin: 0;
@@ -135,7 +139,7 @@ nav a:hover {
 }
 
 /* Supported OS text */
-.hsnkitrhnum2heading {
+.compatible3 {
     font-size: 1.1rem;
     text-align: center;
     margin-top: -0.3rem;
@@ -149,11 +153,6 @@ nav a:hover {
     text-align: center;
     line-height: 1.6;
     font-size: 1rem;
-}
-
-.saad,
-.hsn {
-    font-weight: 600;
 }
 
 /* ===== MODAL ===== */
