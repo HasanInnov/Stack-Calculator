@@ -435,9 +435,9 @@ content.blurred {
   gap: 12px;
   align-items: flex-start;
   padding: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid 220 15% 22%;
   border-radius: 10px;
-  background: #fff;
+  background: 220 15% 12%;
   transition: 0.2s;
 }
 
