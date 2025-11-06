@@ -7,7 +7,7 @@ body {
 }
 
 /* Header */
-.header {
+/* .header {
   position: sticky;
   top: 0;
   background-color: rgba(30, 30, 35, 0.9);
@@ -21,20 +21,20 @@ body {
   align-items: center;
   height: 64px;
   padding: 0 24px;
-}
+} */
 .logo {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.logo-icon {
+/* .logo-icon {
   background-color: rgba(100, 180, 255, 0.1);
   border-radius: 8px;
   padding: 10px;
   font-size: 24px;
   margin-right: 8px;
-}
+} */
 .nav a {
   color: rgb(180, 180, 180);
   margin-left: 20px;
