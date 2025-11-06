@@ -47,12 +47,12 @@ body {
   position: relative;
   margin-bottom: 50px;
 }
-.timeline-item .icon {
+.timeline-item .iconen {
   position: absolute;
-  left: -4px;
+  left: -26px;
   top: 0;
-  background-color: rgb(100, 180, 255);
-  color: rgb(255, 255, 255);
+  background-color: hsl(152, 68%, 38%);
+  /* color: rgb(255, 255, 255); */
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -61,7 +61,7 @@ body {
   justify-content: center;
   border: 3px solid rgb(20, 20, 25);
 }
-.timeline-item .icon.muted {
+.timeline-item .iconen.muted {
   background-color: rgb(80, 80, 90);
 }
 .card {
