@@ -1,9 +1,9 @@
 /* General page styling */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: rgb(20, 20, 25);
-  color: rgb(230, 230, 230);
+  font-family: "Inter", sans-serif;
+  background-color: rgb(16,20,28);
+  color: #fff;
 }
 
 /* Header */
@@ -35,23 +35,23 @@ body {
   font-size: 24px;
   margin-right: 8px;
 } */
-.nav a {
-  color: rgb(180, 180, 180);
+/* .nav a {
+  color: #bfc6d1;
   margin-left: 20px;
   text-decoration: none;
   font-weight: 500;
-}
-.nav a:hover, .nav .active {
+} */
+/* .nav a:hover, .nav .active {
   color: rgb(100, 180, 255);
-}
-.Download {
+} */
+/* .Download {
   background-color: hsl(152, 68%, 38%);
   color: rgb(255, 255, 255);
   padding: 6px 16px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
-}
+/* } 
 .btn:hover {
   background-color: hsl(152, 68%, 48%);
 }
@@ -65,7 +65,7 @@ body {
 .btn-outline:hover {
   background-color: rgb(100, 180, 255);
   color: rgb(255, 255, 255);
-}
+} */
 
 /* Main section */
 .container {
