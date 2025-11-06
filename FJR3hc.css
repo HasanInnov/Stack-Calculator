@@ -87,7 +87,7 @@ body {
   font-size: 12px;
 }
 .badge-outline {
-  border: 1px solid hsl(152, 68%, 38%);
+  border: 1px solid hsl(152, 3%, 21%);
   padding: 2px 8px;
   border-radius: 9999px;
   font-size: 12px;
