@@ -102,9 +102,13 @@ ul li::before {
   content: "▸ ";
   color: hsl(152, 68%, 38%);
 }
-a {
+/* a {
   color: rgb(100, 180, 255);
 }
 a:hover {
   text-decoration: underline;
+} */
+
+.active{
+    color: hsl(152, 68%, 38%);
 }
