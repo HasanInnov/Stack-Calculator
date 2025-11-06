@@ -65,14 +65,14 @@ body {
   background-color: rgb(80, 80, 90);
 }
 .card {
-  background-color: rgb(35, 35, 40);
-  border: 1px solid rgb(80, 80, 90);
+  background-color: rgb(26, 29, 35,0.8);
+  border: 1px solid hsl(152, 68%, 38%);
   border-radius: 12px;
   padding: 20px;
   transition: box-shadow 0.3s;
 }
 .card:hover {
-  box-shadow: 0 0 10px rgb(100, 180, 255);
+  box-shadow: 0 0 10px hsl(152, 68%, 38%);
 }
 .card-header {
   display: flex;
@@ -80,16 +80,16 @@ body {
   gap: 10px;
 }
 .badge {
-  background-color: rgb(100, 180, 255);
+  background-color: hsl(152, 68%, 38%);
   color: white;
   padding: 2px 8px;
-  border-radius: 4px;
+  border-radius: 9999999px;
   font-size: 12px;
 }
 .badge-outline {
-  border: 1px solid rgb(150, 150, 150);
+  border: 1px solid hsl(152, 68%, 38%);
   padding: 2px 8px;
-  border-radius: 4px;
+  border-radius: 9999px;
   font-size: 12px;
   color: rgb(200, 200, 200);
 }
@@ -99,7 +99,7 @@ ul {
 }
 ul li::before {
   content: "▸ ";
-  color: rgb(100, 180, 255);
+  color: hsl(152, 68%, 38%);
 }
 a {
   color: rgb(100, 180, 255);
