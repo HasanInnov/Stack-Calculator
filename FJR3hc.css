@@ -6,12 +6,12 @@ body {
   color: #fff;
 }
 
-.logo {
+/* .logo {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: rgb(255, 255, 255);
-}
+} */
 
 .page-header {
   text-align: center;
