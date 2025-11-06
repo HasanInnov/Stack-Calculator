@@ -96,7 +96,7 @@ body {
 ul {
   list-style: none;
   padding-left: 20px;
-  color: rgb(247, 249, 252);
+  color: #555;
 }
 ul li::before {
   content: "▸ ";
