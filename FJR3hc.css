@@ -97,6 +97,10 @@ ul {
   list-style: none;
   padding-left: 20px;
   color: #555;
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  justify-content: space-between;
 }
 ul li::before {
   content: "▸ ";
