@@ -11,7 +11,7 @@ body {
 /* ===== Global Styles ===== */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: var(--background);
     color: var(--foreground);
 }
