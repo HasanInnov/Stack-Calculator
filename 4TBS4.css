@@ -1,6 +1,6 @@
 /* ===== Color Palette ===== */
 body {
-    --background: rgb(20, 23, 31);
+    --background: rgb(16, 20, 28);
     --foreground: rgb(247, 249, 252);
     --card: rgb(26, 29, 35);
     --primary: rgb(39, 205, 138);
@@ -33,7 +33,7 @@ header {
     z-index: 10;
     /* width: 100%; */
     border-bottom: 1px solid var(--border);
-    background-color: rgba(20, 23, 31, 0.95);
+    background-color: rgba(16, 20, 28, 0.95);
     backdrop-filter: blur(8px);
 }
 
@@ -85,6 +85,11 @@ header .container {
     letter-spacing: 0.5px;
 }
 
+.nav-links a.active:hover {
+    color: var(--foreground);
+    /* margin-right: 0px; */
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -105,7 +110,8 @@ header .container {
 }
 
 .nav-links{
-    margin-right: 25px;
+    /* margin-right: 25px; */
+    gap: 1.8rem;
 }
 
 .nav-links a {
@@ -113,8 +119,8 @@ header .container {
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     transition: color 0.2s;
 }
 
@@ -288,4 +294,47 @@ h3 {
 
 p{
     color: rgb(139, 151, 171);
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 280px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid rgb(39, 44, 53);
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: rgb(39, 206, 128);
+  color: rgb(255, 255, 255);
+  border-color: rgb(39, 206, 128);
+}
+
+.btn-primary:hover {
+  background: rgba(39, 206, 128, 0.9);
+}
+
+.btn-disabled {
+  background: rgb(26, 29, 35);
+  color: rgb(152, 164, 179);
+  cursor: not-allowed;
+  opacity: 0.5;
+  border-color: rgb(39, 44, 53);
+}
+
+.icon {
+  height: 24px;
+  width: auto;
+  filter: brightness(0) invert(1);
 }

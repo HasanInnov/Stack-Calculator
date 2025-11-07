@@ -147,10 +147,10 @@ nav a {
 
 /* Supported OS text */
 .Compatible3 {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   text-align: center;
   margin-top: -0.3rem;
-  color: #555;
+  color: rgb(139, 151, 171);
 }
 
 /* Description section */
@@ -161,7 +161,7 @@ nav a {
   text-align: center;
   line-height: 1.6;
   font-size: 1rem;
-  color: #666;
+  color:rgb(139, 151, 171) ;
 }
 
 /* ===== MODAL ===== */
