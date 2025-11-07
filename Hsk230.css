@@ -1,66 +1,68 @@
 /*<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">*/
 /* Base */
-main{
-    margin-right:4rem;
-    margin-left:4rem;
+main {
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
+
 body {
-    font-family: "Inter", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(16, 20, 28);
-    color: #fff;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 20, 28);
+  color: #fff;
 }
 
 hr {
-    border: none;
-    height: 0.5px;
-    background-color: rgb(44, 49, 55);
-    margin: 0;
+  border: none;
+  height: 0.5px;
+  background-color: rgb(44, 49, 55);
+  margin: 0;
 }
 
 /* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 40px;
-     border-bottom: 1px solid rgb(44, 49, 55);
-    background-color: rgb(16, 20, 28);
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  border-bottom: 1px solid rgb(44, 49, 55);
+  background-color: rgb(16, 20, 28);
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  z-index: 10;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 3px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
 #logoofapp {
-    width: 64px;
-    height: auto;
+  width: 64px;
+  height: auto;
 }
 
 .headerkeandar {
-    font-size: 1.45rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 /* Navbar links */
 nav {
-    display: flex;
-    align-items: center;
-    gap: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
 }
 
 nav a {
-    color: #bfc6d1;
-    text-decoration: none;
-    font-size: 0.95rem;
-    transition: color .2s;
+  color: #bfc6d1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color .2s;
 }
 
 /* .nav a:hover {
@@ -73,15 +75,19 @@ nav a {
   color: white;
   border: 1px solid hsl(152, 68%, 48%);
   border-radius: 8px;
-  padding: 8px 18px; /* more breathing room */
-  font-size: 0.9rem; /* tiny bit bigger */
+  padding: 8px 18px;
+  /* more breathing room */
+  font-size: 0.9rem;
+  /* tiny bit bigger */
   font-weight: 600;
-  line-height: 1; /* prevents squish from default browser line height */
+  line-height: 1;
+  /* prevents squish from default browser line height */
   cursor: pointer;
   transition: .2s ease;
   backdrop-filter: blur(6px);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
 }
+
 #navdown:hover {
   background-color: hsl(152, 68%, 42%);
   border-color: hsl(152, 68%, 42%);
@@ -89,206 +95,206 @@ nav a {
 
 /* Hero Section */
 .App {
-    font-size: 4rem;
-    font-weight: 700;
-    text-align: center;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 /* Version tag styling */
 .ver {
-    text-align: center;
-    font-size: 1rem;
-    color: #9ca3af;
-    background-color: rgba(255, 255, 255, 0.08);
-    padding: 4px 12px;
-    border-radius: 6px;
-    display: inline-block;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #9ca3af;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 4px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 /* Subheading */
 .Appkeniche {
-    font-size: 1.3rem;
-    text-align: center;
-    font-weight: 400;
-    color: #e9edf2;
-    margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 400;
+  color: #e9edf2;
+  margin-bottom: 1.2rem;
 }
 
 /* Main download button */
 #maindown {
-    text-decoration: none;
-    display: block;
-    margin: 1.8rem auto;
-    background-color: hsl(152 ,68%,48%);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 14px 48px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: .2s;
+  text-decoration: none;
+  display: block;
+  margin: 1.8rem auto;
+  background-color: hsl(152, 68%, 48%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 48px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
 }
 
 #maindown:hover {
-    background-color: hsl(152 ,68%,38%);
-    /*transform: scale(1.05);*/
+  background-color: hsl(152, 68%, 38%);
+  /*transform: scale(1.05);*/
 }
 
 /* Supported OS text */
 .Compatible3 {
-    font-size: 1.1rem;
-    text-align: center;
-    margin-top: -0.3rem;
-    color:#555;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: -0.3rem;
+  color: #555;
 }
 
 /* Description section */
 .description {
-    max-width: 720px;
-    margin: 1.2rem auto;
-    padding: 0 1.5rem;
-    text-align: center;
-    line-height: 1.6;
-    font-size: 1rem;
-    color: #666;
+  max-width: 720px;
+  margin: 1.2rem auto;
+  padding: 0 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #666;
 }
 
 /* ===== MODAL ===== */
 
 #overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .3s, visibility .3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s, visibility .3s;
 }
 
 #overlay.active {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal {
-    background-color: rgb(28, 32, 40);
-    padding: 40px 60px;
-    border-radius: 16px;
-    text-align: center;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    transform: scale(0.9);
-    opacity: 0;
-    transition: .3s;
+  background-color: rgb(28, 32, 40);
+  padding: 40px 60px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  transform: scale(0.9);
+  opacity: 0;
+  transition: .3s;
 }
 
 #overlay.active .modal {
-    transform: scale(1);
-    opacity: 1;
+  transform: scale(1);
+  opacity: 1;
 }
 
 .windows-btn {
-    background-color: hsl(152 ,68%,48%);
-    color: white;
-    font-size: 1.1rem;
-    padding: 12px 30px;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-    font-weight: 500;
-    transition: .2s;
-    text-decoration: none;
+  background-color: hsl(152, 68%, 48%);
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  font-weight: 500;
+  transition: .2s;
+  text-decoration: none;
 }
 
 .windows-btn:hover {
-    background-color: hsl(152 ,68%,38%);
-    color: #000;
-    transform: scale(1.05);
+  background-color: hsl(152, 68%, 38%);
+  color: #000;
+  transform: scale(1.05);
 }
 
 .windows-logo {
-    width: 22px;
-    height: 22px;
-    filter: brightness(10);
+  width: 22px;
+  height: 22px;
+  filter: brightness(10);
 }
 
 .windows-btn:hover .windows-logo {
-    filter: brightness(0);
+  filter: brightness(0);
 }
 
 #overlay.hidden {
-    display: none;
+  display: none;
 }
 
 /* Blur background when modal active */
 content.blurred {
-    filter: blur(8px);
-    pointer-events: none;
-    /* prevents clicking behind modal */
+  filter: blur(8px);
+  pointer-events: none;
+  /* prevents clicking behind modal */
 }
 
 /* Keep modal itself sharp */
 #overlay,
 #overlay * {
-    filter: none !important;
-    pointer-events: auto;
+  filter: none !important;
+  pointer-events: auto;
 }
 
 .os-btn {
-    width: 100%;
-    background: hsl(152 ,68%,48%);
-    border: 1px solid hsl(152 ,68%,48%);
-    padding: 12px 18px;
-    margin: 10px 0;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    cursor: pointer;
-    transition: 0.2s ease;
-    justify-content: center;
+  width: 100%;
+  background: hsl(152, 68%, 48%);
+  border: 1px solid hsl(152, 68%, 48%);
+  padding: 12px 18px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  justify-content: center;
 }
 
 .os-btn:hover:not(.disabled) {
-    background: #2a8657;
-    border-color: #2a8657;
-    transform: scale(1.04);
+  background: #2a8657;
+  border-color: #2a8657;
+  transform: scale(1.04);
 }
 
 .os-btn.active {
-    background: hsl(152 ,68%,48%);
-    border-color: hsl(152 ,68%,38%);
+  background: hsl(152, 68%, 48%);
+  border-color: hsl(152, 68%, 38%);
 }
 
 .os-btn.active:hover {
-    background: hsl(152 ,68%,38%);
+  background: hsl(152, 68%, 38%);
 }
 
 .os-btn.disabled {
-    opacity: 0.45;
-    cursor: not-allowed;
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .os-logo {
-    width: 22px;
-    height: 22px;
-    pointer-events: none;
-    filter: brightness(1);
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+  filter: brightness(1);
 }
 
 /*dgo*/
@@ -301,8 +307,8 @@ content.blurred {
   font-size: 0.85rem;
   font-weight: 500;
   border-radius: 0.75rem;
-  border: 1px solid rgba(255,255,255,0.12);
-  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
   color: #c4c4c4;
   backdrop-filter: blur(8px);
 }
@@ -338,10 +344,12 @@ content.blurred {
     transform: scale(1);
     opacity: 0.75;
   }
+
   75% {
     transform: scale(2.2);
     opacity: 0;
   }
+
   100% {
     transform: scale(2.2);
     opacity: 0;
@@ -445,7 +453,8 @@ content.blurred {
 
 .feature-card {
   display: flex;
-  align-items: center; /* ← change was items-start in Tailwind */
+  align-items: center;
+  /* ← change was items-start in Tailwind */
   gap: 12px;
   padding: 16px;
   border: 1px solid hsl(220 15% 22%);
@@ -457,18 +466,16 @@ content.blurred {
 
 .feature-card:hover {
   border-color: hsl(220 15% 32%);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
 .icone {
   width: 40px;
   height: 40px;
-  background: rgba(76,175,80,0.12);
+  background: rgba(76, 175, 80, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px;
   font-size: 20px;
 }
-
-
