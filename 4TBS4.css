@@ -105,8 +105,7 @@ header .container {
 }
 
 .nav-links{
-    gap: 10px;
-    left: -12px;
+    margin-right: 25px;
 }
 
 .nav-links a {
@@ -114,7 +113,8 @@ header .container {
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: color 0.2s;
 }
 
@@ -286,5 +286,5 @@ h3 {
 }
 
 p{
-    color: var(--muted-foreground);
+    color: rgb(139, 151, 171);
 }
