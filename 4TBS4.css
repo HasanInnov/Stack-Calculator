@@ -114,6 +114,7 @@ header .container {
     gap: 1.8rem;
     display: flex;
     flex-flow: row;
+    align-items: center;
 }
 
 .nav-links a {
