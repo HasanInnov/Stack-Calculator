@@ -279,3 +279,7 @@ h3 {
     border-color: var(--primary);
     color: var(--primary);
 }
+
+p{
+    color: #383851;
+}
