@@ -104,6 +104,11 @@ header .container {
     font-size: 24px;
 }
 
+.nav-links{
+    gap: 10px;
+    left: -12px;
+}
+
 .nav-links a {
     color: var(--muted-foreground);
     font-size: 14px;
@@ -281,5 +286,5 @@ h3 {
 }
 
 p{
-    color: #383851;
+    color: var(--muted-foreground);
 }
