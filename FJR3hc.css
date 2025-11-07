@@ -73,10 +73,11 @@ p{
   border: 0.5px solid hsl(152, 3%, 21%);
   border-radius: 12px;
   padding: 20px;
-  transition: box-shadow 0.3s;
+  transition:0.3s;
 }
 .card:hover {
-  box-shadow: 0.5px hsl(152, 68%, 38%);
+  border: 0.5px hsl(152, 68%, 38%);
+  transition: box-shadow 0.3s;
 }
 .card-header {
   display: flex;
