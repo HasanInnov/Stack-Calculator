@@ -22,16 +22,16 @@ hr {
 
 /* Header */
 header {
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 18px 40px;
+  top: 0;
+  z-index: 10;
   border-bottom: 1px solid rgb(44, 49, 55);
   background-color: rgb(16, 20, 28);
-  position: sticky;
-  top: 0;
   backdrop-filter: blur(8px);
-  z-index: 10;
 }
 
 .logo {
