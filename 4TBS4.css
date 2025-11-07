@@ -124,6 +124,7 @@ header .container {
 
 .nav-links a.active {
     color: var(--primary);
+    margin-right: 0px;
 }
 
 .btn-primary {

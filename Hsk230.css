@@ -59,15 +59,15 @@ nav {
 }
 
 nav a {
-  color: #bfc6d1;
+  color: rgb(139, 151, 171);
   text-decoration: none;
   font-size: 0.95rem;
   transition: color .2s;
 }
 
-/* .nav a:hover {
-  color: rgb(100, 180, 255);
-} */
+.nav a:hover {
+  color: rgb(247, 249, 252);
+}
 
 /* Navbar Download button (smaller, sleek) */
 #navdown {
@@ -482,4 +482,5 @@ content.blurred {
 
 p{
   color: rgb(139, 151, 171);
+  line-height: 25px;
 }
