@@ -7,10 +7,29 @@
   <title>Stack Calculator - Release Notes</title>
   <link rel="stylesheet" href="Hsk230.css">
   <link rel="stylesheet" href="FJR3hc.css">
+  <link rel="stylesheet" href="skeleton.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Script -->
+  <script src="J5J39F.js" defer></script>
+  <script src="skeleton.js" defer></script>
+
 </head>
 
 <body>
+
+  <!-- Skeleton Loader -->
+  <div id="skeleton-loader">
+    <div class="skeleton-header"></div>
+    <div class="skeleton-content">
+      <div class="skeleton-line w-60"></div>
+      <div class="skeleton-line w-80"></div>
+      <div class="skeleton-line w-40"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+  </div>
+
   <!-- Header -->
   <header class="header">
     <div class="logo">
@@ -73,7 +92,7 @@
           </ul>
 
           <button class="Download" id="maindown" style="margin: 0.5rem;">
-              Download v1.0.0
+            Download v1.0.0
           </button>
         </div>
       </div>
@@ -105,34 +124,34 @@
       </div>
     </div>
   </main>
-    <!-- Download modal -->
-    <div id="overlay" class="hidden">
-      <div class="modal">
-        <h2>Choose your platform</h2>
+  <!-- Download modal -->
+  <div id="overlay" class="hidden">
+    <div class="modal">
+      <h2>Choose your platform</h2>
 
-        <div class="download-buttons">
+      <div class="download-buttons">
 
-          <a class="btn btn-primary"
-            href="https://github.com/HasanInnov/Stack-Calculator/releases/download/v1.0.0/Stack.Calculator.Setup.1.0.0.exe"
-            download>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows logo"
-              class="icon" />
-            <span>Windows (.exe)</span>
-          </a>
-          <button class="btn btn-disabled" disabled>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="macOS logo"
-              class="icon" />
-            <span>macOS (.dmg) Coming Soon</span>
-          </button>
-          <button class="btn btn-disabled" disabled>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux logo" class="icon" />
-            <span>Linux (.deb) Coming Soon</span>
-          </button>
-        </div>
+        <a class="btn btn-primary"
+          href="https://github.com/HasanInnov/Stack-Calculator/releases/download/v1.0.0/Stack.Calculator.Setup.1.0.0.exe"
+          download>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows logo"
+            class="icon" />
+          <span>Windows (.exe)</span>
+        </a>
+        <button class="btn btn-disabled" disabled>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="macOS logo"
+            class="icon" />
+          <span>macOS (.dmg) Coming Soon</span>
+        </button>
+        <button class="btn btn-disabled" disabled>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux logo" class="icon" />
+          <span>Linux (.deb) Coming Soon</span>
+        </button>
       </div>
     </div>
+  </div>
 
-  <script src="J5J39F.js"></script>
+
 </body>
 
 </html>

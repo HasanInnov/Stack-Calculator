@@ -18,13 +18,27 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="Hsk230.css">
+    <link rel="stylesheet" href="skeleton.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Script -->
     <script src="J5J39F.js" defer></script>
+    <script src="skeleton.js" defer></script>
 </head>
 
 <body>
+    <!-- Skeleton Loader -->
+    <div id="skeleton-loader">
+        <div class="skeleton-header"></div>
+        <div class="skeleton-content">
+            <div class="skeleton-line w-60"></div>
+            <div class="skeleton-line w-80"></div>
+            <div class="skeleton-line w-40"></div>
+            <div class="skeleton-card"></div>
+            <div class="skeleton-card"></div>
+        </div>
+    </div>
+
     <div id="content">
         <header>
             <div class="logo">
@@ -35,25 +49,29 @@
                 <a href="About.html">About</a>
                 <a href="Release Notes.html">Release Notes</a>
                 <button id="navdown" class="Download">Download</button>
-                
+
             </nav>
         </header>
         <hr>
         <br>
         <main id="cont2">
             <section class="hero">
-                    <center><div class="version-badge">
+                <center>
+                    <div class="version-badge">
                         <span class="dot-wrapper">
                             <span class="dot-ping"></span>
                             <span class="dot"></span>
                         </span>
                         Latest version 1.0.0
-                    </div></center>
+                    </div>
+                </center>
 
                 <h1 class="App">Stack Calculator</h1>
                 <h2 class="Appkeniche">Calculates Minecraft stacks</h2>
                 <button id="maindown" class="Download">Download</button>
-                <center><h4 class="Compatible3">Compatible with Windows•linux and MacOS coming soon</h4></center>
+                <center>
+                    <h4 class="Compatible3">Compatible with Windows•linux and MacOS coming soon</h4>
+                </center>
             </section>
 
             <section class="description">
@@ -138,4 +156,5 @@
         </div>
     </div>
 </body>
+
 </html>
