@@ -68,17 +68,20 @@ p{
 .timeline-item .iconen.muted {
   background-color: rgb(80, 80, 90);
 }
+
 .card {
-  background-color: rgb(26, 29, 35,0.8);
+  background-color: rgba(26, 29, 35, 0.8);
   border: 0.5px solid hsl(152, 3%, 21%);
   border-radius: 12px;
   padding: 20px;
-  transition:0.3s;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
+
 .card:hover {
-  border: 0.5px hsl(152, 68%, 38%);
+  border: 0.5px solid hsl(152, 68%, 38%);
   box-shadow: 0 0 12px hsl(152, 68%, 38%);
 }
+
 .card-header {
   display: flex;
   align-items: center;
